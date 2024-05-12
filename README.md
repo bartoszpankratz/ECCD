@@ -41,7 +41,7 @@ and Their Applications XI*, pages 221–232, Cham, 2023. Springer International 
 Content of the repository:
 - folder ``ECCD`` contains files used in a main experiment, namely a comparision of different combinations of embedding and clustering in the **EC** framework: 
      - ``EC_main.jl`` is a core of the experiment. For a given sweep of parameters, script generates [ABCD](https://github.com/bkamins/ABCDGraphGenerator.jl) synthetic network. Then, it computes modularity and **AMI** score for the baseline community detection algorithms (**Louvain**, **Leiden** and **ECG**). Finally, script run embedding algorithm on a given graph (**LE**, **LLE**, **GraRep**, **LINE**, **HOPE**, **deepWalk**, **node2vec**, all taken from the [OpenNE](https://github.com/thunlp/OpenNE) package) and call the ``run_clustering.jl`` which calculates the **EC** results for a given embedding.
-     - ``EC_main_facebook.jl`` is a modified version of ``EC_main.jl``  for Facebook Datasets (avalaible at [**GEMSEC**] GitHub (https://github.com/benedekrozemberczki/GEMSEC?tab=readme-ov-file) repository or [SNAP](https://snap.stanford.edu/data/gemsec-Facebook.html))
+     - ``EC_main_facebook.jl`` is a modified version of ``EC_main.jl``  for Facebook Datasets (avalaible at [**GEMSEC**](https://github.com/benedekrozemberczki/GEMSEC?tab=readme-ov-file) GitHub repository or [SNAP](https://snap.stanford.edu/data/gemsec-Facebook.html))
      - ``run_clustering.jl`` is a script that run various clustering algorithms (**k-means**, **Gaussian Mixture Model** and **HDBSCAN**) on top of a given embedding and finds a **EC-Louvain** and **EC-Leiden** partitions.  
 - ``ECCD_Experiment.ipynb`` is a notebook with analysis of experiment results.
 
@@ -87,4 +87,4 @@ Two datasets are provided with this repository:
 - [ABCD_graphs](https://drive.google.com/file/d/1SRDBvwhn9NcbV5QmteomTiwAUqXf56t0/view?usp=sharing) - dataset contains **ABCD** graphs used in the experiment and separate files with community and degree distribution used to generate **ABCD** networks.
 - [results](https://drive.google.com/file/d/1uSXdeaeXptycbD09czsH1YepbmO2XYRc/view?usp=sharing) - aggregated results of experiments.
 
-Facebook Datasets are avalaible at [**GEMSEC**] GitHub (https://github.com/benedekrozemberczki/GEMSEC?tab=readme-ov-file) repository or [SNAP](https://snap.stanford.edu/data/gemsec-Facebook.html).
+Facebook Datasets are avalaible at [**GEMSEC**](https://github.com/benedekrozemberczki/GEMSEC?tab=readme-ov-file) GitHub repository or [SNAP](https://snap.stanford.edu/data/gemsec-Facebook.html).
