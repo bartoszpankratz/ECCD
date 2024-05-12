@@ -84,6 +84,7 @@ Additionaly ``Python 3.7.17`` was used with following packages:
 ### Datasets
 
 Two datasets are provided with this repository:
-- [graphs](https://drive.google.com/file/d/1wekpTdvgsKwSuPhNstXl-c9zIM3uLsdK/view?usp=sharing) - dataset contains **ABCD** graphs used in the experiment and separate files with community and degree distribution used to generate **ABCD** networks.
-- [results](https://drive.google.com/file/d/1MfPL8JOWObJmlvdErOCGsd65zENlJqwe/view?usp=sharing) - aggregated results of experiments.
+- [ABCD_graphs](https://drive.google.com/file/d/1SRDBvwhn9NcbV5QmteomTiwAUqXf56t0/view?usp=sharing) - dataset contains **ABCD** graphs used in the experiment and separate files with community and degree distribution used to generate **ABCD** networks.
+- [results](https://drive.google.com/file/d/1uSXdeaeXptycbD09czsH1YepbmO2XYRc/view?usp=sharing) - aggregated results of experiments.
+
 Facebook Datasets are avalaible at [**GEMSEC**] GitHub (https://github.com/benedekrozemberczki/GEMSEC?tab=readme-ov-file) repository or [SNAP](https://snap.stanford.edu/data/gemsec-Facebook.html).
